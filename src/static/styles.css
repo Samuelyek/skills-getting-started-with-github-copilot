@@ -1,3 +1,12 @@
+/* 删除图标样式 */
+.delete-icon {
+  color: #ff6b6b;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #d32f2f;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -88,7 +97,8 @@ section h3 {
 .participants-list {
   margin-top: 5px;
   padding-left: 20px;
-  list-style-type: disc;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .participants-list li {
